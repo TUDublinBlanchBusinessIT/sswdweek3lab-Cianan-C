@@ -2,7 +2,7 @@
 echo "<TABLE border='1'>";
 
 for ($i=1; $i<=15 ; $i++){
-	echo "TR";
+	echo "<TR>";
 	for ($j=1; $j<=20 ; $j++){
 		echo "<TD>".$i.",".$j."</TD>";
 	}
